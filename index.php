@@ -20,7 +20,7 @@
 
 	$serverUrl = isset($_SESSION['server_url']) ?
 		$_SESSION['server_url'] :
-		'https://test.tcworld.net/pay_pb.php?provider_id=4207';// $demoUrl;
+		/*'https://test.tcworld.net/pay_pb.php?provider_id=4207';/*/ $demoUrl;
 
 	$smarty->assign('server_url', $serverUrl);
 
